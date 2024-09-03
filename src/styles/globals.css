@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .sign_button { 
+        @apply rounded-full border border-black bg-black py-1.5 px-5 text-white transition-all hover:bg-white hover:text-black;
+    }
+    .blue_shadow {
+        @apply  p-32 w-auto shadow-[20px_20px_40px_-30px] shadow-shadow-blue opacity-50 hover:opacity-100 transition-all 
+    }  
+        .blue_gradient {
+            @apply bg-gradient-to-r from-cyan-400 to-cyan-700 bg-clip-text text-transparent
+    }
+}
